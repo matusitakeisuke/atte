@@ -1,0 +1,56 @@
+.error {
+    color: red;
+}
+
+.section {
+    background-color: rgb(227, 227, 227);
+    text-align: center;
+}
+
+.section__h2 {
+    padding-top: 4em;
+    font-weight: lighter;
+}
+
+.form__input {
+    background-color: rgb(227, 227, 227);
+    margin-bottom: 2em;
+    width: 25em;
+    line-height: 2.5em;
+    padding-left: 1%;
+    color: rgb(116, 116, 116);
+    border: solid 1px  ;
+    border-radius: 3px;
+}
+
+.section__button {
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    border: solid 1px  rgb(227, 227, 227);
+    padding: 1em 11em;
+    border-radius: 4px;
+    font-size: 0.8em;
+}
+
+.section__div-center {
+    color: rgb(116, 116, 116);
+    margin-top: 2em;
+}
+
+.section__div-padding-bottom {
+    padding-bottom: 16em;
+}
+
+.section__a-color {
+    color: blue;
+    text-decoration: none;
+    font-size: 0.8em;
+    padding-bottom: 1em;
+    vertical-align: top;
+}
+
+.section__div-font-weight {
+    text-align: center;
+    line-height: 3em;
+    font-weight: bold;
+}

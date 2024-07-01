@@ -1,0 +1,61 @@
+.section {
+    background-color: rgb(227, 227, 227);
+}
+
+.section__div-p {
+    margin-top: 0.5%;
+}
+.section__div {
+    display: flex;
+    justify-content: center;
+    line-height: 4em;
+}
+
+.section__a-border {
+    color: blue;
+    background-color: rgb(255, 255, 255);
+    padding: 0.2em 0.7em;
+    text-decoration: none;
+    border: solid 1px blue;
+}
+
+.section__div-margin {
+    padding-top: 1.7%;
+    margin: 0 7%;
+}
+
+.table__tr {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10.5em;
+}
+
+.th__tr-border {
+    line-height: 5em;
+    border-top: solid 1px black;
+    padding: 0 5.7em;
+}
+
+.td__form {
+    border-top: solid 1px black;
+}
+
+.input__form {
+    background-color: rgb(227, 227, 227);
+    text-align: center;
+    border-style: none;
+    line-height: 4em;
+    width: 100%;
+}
+
+.section__div-font-weight {
+    text-align: center;
+    padding-top: 1em;
+    font-weight: bold;
+
+}
+
+.section__small-padding-bottom {
+    padding-bottom: 2em;
+}
+

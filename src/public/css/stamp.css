@@ -1,0 +1,48 @@
+.section {
+    background-color: rgb(227, 227, 227);
+    padding-bottom: 7.5em;
+}
+.div__table {
+    display: flex;
+    justify-content: center;
+    padding: 2em 0  1em 0;
+    margin-right: 7em;
+}
+
+.section__input {
+    background-color: rgb(227, 227, 227);
+    border-style: none;
+    text-align: right;
+    font-weight: bold;
+    font-size: 105%;
+    padding-top: 1.5%;
+}
+
+.section__form-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.section__div-center {
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    text-align: center;
+    line-height: 11em;
+    margin: 2%;
+}
+
+.section__a-text-decoration {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.section__div-font-weight {
+    text-align: center;
+    padding-top: 1em;
+    font-weight: bold;
+}
+
+.section__small-padding-bottom {
+    padding-bottom: 1em;
+}
