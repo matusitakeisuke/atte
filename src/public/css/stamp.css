@@ -18,23 +18,28 @@
     padding-top: 1.5%;
 }
 
-.section__form-flex {
+.div__flex {
     display: flex;
     justify-content: center;
+    gap: 2em;
 }
 
 .section__div-center {
     background-color: rgb(255, 255, 255);
-    width: 30%;
+    width: 100%;
     text-align: center;
     line-height: 11em;
-    margin: 2%;
+    margin: 1em;
+    padding: 0 11em;
+    border-radius: 5px;
 }
 
-.section__a-text-decoration {
-    text-decoration: none;
+.section__button-text-decoration {
+    border: none;
     font-weight: bold;
     color: black;
+    font-size: 1.2em;
+    background-color: rgb(255, 255, 255);
 }
 
 .section__div-font-weight {

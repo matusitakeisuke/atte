@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Work_time extends Model
+class WorkTime extends Model
 {
     use HasFactory;
 
@@ -14,4 +14,17 @@ class Work_time extends Model
         'start_work',
         'end_work',
     ];
+
+
+
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
+
+    public function breakTimes()
+    {
+        return $this->hasMany(BreakTime::class);
+    }
 }
+

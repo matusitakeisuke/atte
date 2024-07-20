@@ -37,15 +37,15 @@
 }
 
 .td__form {
+    text-align: center;
     border-top: solid 1px black;
+    line-height: 3.5em;
+    font-weight: bold;
 }
 
-.input__form {
-    background-color: rgb(227, 227, 227);
-    text-align: center;
-    border-style: none;
-    line-height: 4em;
-    width: 100%;
+svg.w-5.h-5 {
+    width: 30px;
+    height: 30px;
 }
 
 .section__div-font-weight {

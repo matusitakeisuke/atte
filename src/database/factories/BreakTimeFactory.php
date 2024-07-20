@@ -2,11 +2,11 @@
 
 namespace Database\Factories;
 
-
-
 use Illuminate\Database\Eloquent\Factories\Factory;
+use App\Models\WorkTime;
+use App\Models\BreakTime;
 
-class Work_timeFactory extends Factory
+class BreakTimeFactory extends Factory
 {
     /**
      * Define the model's default state.
@@ -16,7 +16,9 @@ class Work_timeFactory extends Factory
     public function definition()
     {
         return [
-            
+            'work_time_id' => WorkTime::factory(),
+            'start_break' => $this->faker->time,
+            'end_break' => $this->faker->time,
         ];
     }
 }
