@@ -4,8 +4,9 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB; 
+use App\Models\BreakTime;
 
-class Work_timeTableSeeder extends Seeder
+class BreakTimeSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -14,6 +15,6 @@ class Work_timeTableSeeder extends Seeder
      */
     public function run()
     {
-        
+        \App\Models\BreakTime::factory(10)->create();
     }
 }

@@ -3,8 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\StampController;
 use App\Http\Controllers\AuthenticatedSessionController;
-use App\Http\Controllers\DateController;
 use App\Http\Controllers\RegisteredUserController;
+use App\Http\Controllers\AttendanceController;
 
 
 /*
@@ -20,8 +20,13 @@ use App\Http\Controllers\RegisteredUserController;
 
 Route::get('/', [StampController::class, 'index'])
 ->name('stamp');
+Route::post('/', [StampController::class, 'store'])
+->name('stamp.post');
 
-Route::get('/attendance', [AttendanceController::class, 'index']);
+Route::get('/attendance', [AttendanceController::class, 'index'])
+->name('date');
+Route::get('/attendance', [AttendanceController::class, 'show'])
+->name('date.show');
 
 
 Route::get('/login', [AuthenticatedSessionController::class, 'index'])

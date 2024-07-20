@@ -41,4 +41,20 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function getDetail()
+    {
+        return [ 
+            'name' => $this->name,
+            'start_work' => $this->start_work,
+            'end_work' => $this->end_work,
+            'start_break' => $this->start_break,
+            'end_break' => $this->end_break,
+        ];
+    }
+
+    public function workTimes()
+    {
+        return $this->hasMany(WorkTime::class);
+    }
 }
